@@ -1,0 +1,21 @@
+.row{
+    margin: 0 -1% 20px;
+}
+.row::after{
+    content: '';
+    display: table;
+    clear:both;
+}
+.column{
+    height: 200px;
+    background-color: lightblue;
+    width: 23%;
+    float: left;
+    margin: 0 1%;
+}
+.column:first-child{
+    margin-left: 0;
+}
+.column:last-child{
+    margin-right: 0;
+}
