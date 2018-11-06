@@ -1,16 +1,22 @@
+
 .row{
-    margin: 0 0 20px;
-    font-size: 0;
+    margin: 0 0px;
     display: flex;
+    padding: 0;
+
 }
-.row--bublik{
-    justify-content: space-between;
+body{
+    width: 100%;
+    max-width: 1200px;
+}
+img{
+    width: 100%;
 }
 .column{
     display: inline-block;
     box-sizing: border-box;
     font-size: 1rem;
-    padding: 0 .5rem;
+    padding: .3rem .5rem;
 }
 .inner{
     background-color: lightblue;
@@ -33,22 +39,4 @@
 }
 .column--6{
     width: calc(100% / 6);
-}
-.column--7 {
-    width: calc(100% / 7);
-}
-.column--8{
-    width: calc(100% / 8);
-}
-.column--9{
-    width: calc(100% / 9);
-}
-.column--10{
-    width: calc(100% / 10);
-}
-.column--11{
-    width: calc(100% / 11);
-}
-.column--12{
-    width: calc(100% / 12);
 }
